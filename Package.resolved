@@ -74,6 +74,15 @@
         }
       },
       {
+        "package": "PostgreSQL",
+        "repositoryURL": "https://github.com/vapor/postgresql.git",
+        "state": {
+          "branch": null,
+          "revision": "561fa7905030cb1240b7359ba829fa5afbf45b00",
+          "version": "1.4.2"
+        }
+      },
+      {
         "package": "Routing",
         "repositoryURL": "https://github.com/vapor/routing.git",
         "state": {

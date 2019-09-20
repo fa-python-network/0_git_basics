@@ -102,3 +102,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# xcode
+Packages
+.build
+xcuserdata
+*.xcodeproj
+DerivedData/
+.DS_Store
