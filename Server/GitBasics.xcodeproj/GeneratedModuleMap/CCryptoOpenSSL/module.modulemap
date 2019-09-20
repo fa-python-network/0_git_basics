@@ -1,0 +1,4 @@
+module CCryptoOpenSSL {
+    umbrella "/Users/flyme/Desktop/git_basics/Server/.build/checkouts/crypto/Sources/CCryptoOpenSSL/include"
+    export *
+}
