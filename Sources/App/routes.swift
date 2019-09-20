@@ -1,20 +1,21 @@
 import Vapor
 
+
+struct PostgreSQLVersion: Codable {
+    let version: String
+}
+
+
 /// Register your application's routes here.
 public func routes(_ router: Router) throws {
-    // Basic "It works" example
+    
+    // The home page shows the PostgreSQL version
     router.get { req in
-        return "It works!"
+        return req.withPooledConnection(to: .psql) { conn in
+            return conn.raw("SELECT version()").all(decoding: PostgreSQLVersion.self)
+        }.map { rows in
+            return rows[0].version
+        }
     }
     
-    // Basic "Hello, world!" example
-    router.get("hello") { req in
-        return "Hello, world!"
-    }
-
-    // Example of configuring a controller
-    let todoController = TodoController()
-    router.get("todos", use: todoController.index)
-    router.post("todos", use: todoController.create)
-    router.delete("todos", Todo.parameter, use: todoController.delete)
 }
