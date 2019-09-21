@@ -9,4 +9,6 @@ def fct(n):
 n = int(input())
 print(fct(n))
 
+print("lalalalalalalalalala")
+
 
