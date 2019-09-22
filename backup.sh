@@ -1,2 +1,4 @@
 !#/bin/bash
-cat Hi!
+cat Hi! 
+pwd 
+cat "Taaaadaaaam"
