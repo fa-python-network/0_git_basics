@@ -1,4 +1,4 @@
 #!bin/bash
-echo("Holla world!")
+echoh("Holla world!")
 echo("Come stai") #This is sentence
 
