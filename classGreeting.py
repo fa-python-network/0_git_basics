@@ -15,4 +15,10 @@ class Greeting:
             return "Good day"
         else:
             return "Good evening"
-        
+                   
+    def getName(self):
+        print("Как к вам можно обратиться? Представьтесь: ")
+        name = input()
+        return name
+    
+    
