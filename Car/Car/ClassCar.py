@@ -8,12 +8,12 @@ class Car(object):
         self.speed=speed
         #Вверх
         self.car_surf_up=pygame.image.load('car.png').convert_alpha()
-        self.car_rect_up=self.car_surf_up.get_rect(center=coords)
+        self.car_rect_up=self.car_surf_up.get_rect(center=self.coords)
         #Вниз
         self.car_surf_down=pygame.transform.flip(self.car_surf_up, 0, 1)
         self.car_rect_down=self.car_surf_down.get_rect()
         #Вправо
-        self.car_surf_right=pygame.transform.rotate(self.car_surf_up, 90)
+        self.car_surf_right=pygame.transform.rotate(self.car_surf_down, 90)
         self.car_rect_right=self.car_surf_right.get_rect()
         #Влево
         self.car_surf_left=pygame.transform.flip(self.car_surf_right, 1, 0)
@@ -34,46 +34,46 @@ class Car(object):
 
     def up(self):
         self.coords[1]-=self.speed+2**0.5
-        self.car_rect_up.center=coords
+        self.car_rect_up.center=self.coords
         self.surf.blit(self.car_surf_up, self.car_rect_up)
 
     def down(self):
         self.coords[1]+=self.speed+2**0.5
-        self.car_rect_down.center=coords
+        self.car_rect_down.center=self.coords
         self.surf.blit(self.car_surf_down, self.car_rect_down)
 
     def right(self):
         self.coords[0]+=self.speed+2**0.5
-        self.car_rect_right.center=coords
+        self.car_rect_right.center=self.coords
         self.surf.blit(self.car_surf_right, self.car_rect_right)
 
     def left(self):
         self.coords[0]-=self.speed+2**0.5
-        self.car_rect_left.center=coords
+        self.car_rect_left.center=self.coords
         self.surf.blit(self.car_surf_left, self.car_rect_left)
 
     def upleft(self):
         self.coords[0]-=self.speed
         self.coords[1]-=self.speed
-        self.car_rect_upleft.center=coords
+        self.car_rect_upleft.center=self.coords
         self.surf.blit(self.car_surf_upleft, self.car_rect_upleft)
 
     def upright(self):
         self.coords[0]+=self.speed
         self.coords[1]-=self.speed
-        self.car_rect_upright.center=coords
+        self.car_rect_upright.center=self.coords
         self.surf.blit(self.car_surf_upright, self.car_rect_upright)
 
     def downright(self):
         self.coords[0]+=self.speed
         self.coords[1]+=self.speed
-        self.car_rect_downright.center=coords
+        self.car_rect_downright.center=self.coords
         self.surf.blit(self.car_surf_downright, self.car_rect_downright)
 
     def downleft(self):
         self.coords[0]-=self.speed
         self.coords[1]+=self.speed
-        self.car_rect_downleft.center=coords
+        self.car_rect_downleft.center=self.coords
         self.surf.blit(self.car_surf_downleft, self.car_rect_downleft)
 
 
