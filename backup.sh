@@ -14,3 +14,6 @@ elif c == "/":
 elif c =="*":
 	d = a * b
 	print ("Answer is: " + str(int(d)))
+else:
+	print ("Error")
+	
