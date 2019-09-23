@@ -1,2 +1,2 @@
-print ("Hello, world!")
+pringgt ("Hello, world!")
 #Самая сложная программа
