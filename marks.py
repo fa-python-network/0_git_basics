@@ -1,4 +1,4 @@
-Class Marks:
+class Marks:
 	def __init__(self):
 		pass
 		
@@ -17,9 +17,8 @@ Class Marks:
 		c = input()
 		return int(c)
 		
-	def getAddMark1(self):
+	def getAddMark3(self):
 		print("Сколько баллов вы поставите за доп. задание №3? Введите число: ")
 		d = input()
 		return int(d)
-    
-    
+ 
