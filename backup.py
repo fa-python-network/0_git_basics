@@ -1,19 +1,12 @@
 #this script brings joy
 
+from classGreeting import Greeting
 from marks import Marks
 
 M = Marks()
+gr = Greeting()
 
-print ("Good morning, Michail Viktorovich!")
-print ("Are you drinking coffee now? y/n")
-answer = input()
-
-if answer == "y":
-	print("Enjoy your coffee and good day!")
-elif answer == "n":
-	print ("It's so good for your health. Good day!")
-else:
-	print ("Your answer should be y or n. Repeat, please")
+print ("\n{0}, {1}!\n{2}".format(gr.grtng(), gr.getName(), gr.compliment()))
 	
 print("Теперь поможем вычислить количество баллов, которые Вы поставите нам за данную работу :)")
 m1 = M.getGeneralMark()
