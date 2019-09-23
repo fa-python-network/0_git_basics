@@ -2,5 +2,5 @@ for i in 'Hello, my friend':
 	if i=='a': 
 		break
 	else:
-		print('Буквы а нет в строке')
+		print('Буквы а нет в строке'
 		print('Ищите букву а')  #добавлена новая строка
