@@ -11,3 +11,6 @@ elif c == "-": #Compare the variable for further action
 elif c == "/":
 	d = a / b
 	print ("Answer is: " + str(d))
+elif c =="*":
+	d = a * b
+	print ("Answer is: " + str(int(d)))
