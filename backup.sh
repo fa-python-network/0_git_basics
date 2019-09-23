@@ -1,4 +1,4 @@
 #!bin/bash
 ls
-echo("Hello world")
+echo"Hello world"
 #comment
