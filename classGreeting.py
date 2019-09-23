@@ -1,4 +1,5 @@
 import datetime
+import random
 
 class Greeting:
     def __init__(self):
