@@ -21,4 +21,12 @@ class Greeting:
         name = input()
         return name
     
-    
+    def compliment(self):
+        rnd = random.randint(1, 3) 
+        if (rnd == 1):
+            return "You are so cute!"
+        elif (rnd == 2):
+            return "You look gorgeous!"
+        else:
+            return "You’re irreplaceable!"
+        
