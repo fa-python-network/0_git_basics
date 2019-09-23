@@ -1,10 +1,13 @@
 a = float(input("Enter the first number: "))
-c = str(input("Enter the action (+, -, * /): "))
+c = str(input("Enter the action (+, -, /, *): "))
 b = float(input("Enter the second number: "))
 
 if c == "+":
 	d = a + b
 	print ("Answer is: " + str(int(d))
-if c == "-": #Compare the variable for further action
+elif c == "-": #Compare the variable for further action
 	d = a - b
-	print ("Answer is: ") + str(int(d))
+	print ("Answer is: " + str(int(d))
+elif c == "%": #By Convention, we must divide the number and not look for the remainder of the division.
+	d = a / b
+	print ("Answer is: " + str(d))
