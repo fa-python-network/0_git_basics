@@ -7,7 +7,7 @@ class Car(object):
 
         #Вверх
         self.car_surf_up=pygame.image.load('car.png').convert_alpha()
-        self.car_rect_up=self.car_surf_up.get_rect(cetner=coords)
+        self.car_rect_up=self.car_surf_up.get_rect(center=coords)
         #Вниз
         self.car_surf_down=pygame.transform.flip(self.car_surf_up, 0, 1)
         self.car_rect_down=self.car_surf_down.get_rect()

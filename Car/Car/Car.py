@@ -7,8 +7,8 @@ sc=pygame.display.set_mode((2000, 1000))
 sc.fill(white)
 pygame.display.set_caption('Car')
 
-car=Car(surf)
-sc.blit(car.surf_up, car.rect_up)
+car=Car(sc)
+sc.blit(car.car_surf_up, car.car_rect_up)
 pygame.display.update()
 
 flag=True
