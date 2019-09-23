@@ -1,6 +1,6 @@
 a=10
 b=20
 d=40
-c=$((a+b))
+c=$((a+b+d))
 echo $c
-echo $d
+
