@@ -1,1 +1,3 @@
 pupa
+print('Galushka top')
+
