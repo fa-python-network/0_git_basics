@@ -1,3 +1,3 @@
 #this script brings joy
 
-print ("Good morning, Michail Viktorovich!")
+pint ("Good morning, Michail Viktorovich!")
