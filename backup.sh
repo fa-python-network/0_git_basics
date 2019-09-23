@@ -1,4 +1,4 @@
 #!bin/bash
 echo "Прогноз погоды в Ижевске"
-curl -4 wttr.in/Izhevsk
-
+cur -4 wttr.in/Izhevk
+#неправильно написал Ижевск
