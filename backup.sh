@@ -1,3 +1,3 @@
 who
-exho "Hello"
+echo "Hello"
 #Random comment
