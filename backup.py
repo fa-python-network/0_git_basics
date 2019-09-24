@@ -1,2 +1,5 @@
 print('hello')
-print('heh')
+print('10')
+print('jdjdjd')
+print(50-9)
+print('ddd')
