@@ -1,3 +1,3 @@
 print ("What is your name?")
 n = input()
-print("Hello, ", n)
+print("Hello, {}. Nice to meet you!".format(n))
