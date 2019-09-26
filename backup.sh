@@ -9,3 +9,4 @@ matrix_t = list(zip(*matrix))
 
 pprint(matrix)
 pprint(matrix_t)
+//транспонирование матрицы
