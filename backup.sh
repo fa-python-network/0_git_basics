@@ -1,2 +1,3 @@
 print("Hello world")
-prnt("Peace out") #Это все на что хватило фантазии
+print("Peace out") #Это все на что хватило фантазии
+print("Life is pain")
