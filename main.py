@@ -1,2 +1,3 @@
 print("Hello, world")
-print(10)
+a = 5 + 7
+print(a)
