@@ -1,3 +1,4 @@
 #!/bin/bash
 #Скрипт для приветствия
-ecссho "hello"
+echo "hello"
+echo "my name is useless script"
