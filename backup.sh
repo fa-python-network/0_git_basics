@@ -3,4 +3,4 @@
 echo $USER
 echo $HOME
 echo "Initializing backup..."
-tar -czvf $USER.tar.gz
+tar -czvf $USER.tar.gz $HOME
