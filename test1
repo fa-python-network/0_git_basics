@@ -1,0 +1,2 @@
+sad = ":("
+print(sad)
