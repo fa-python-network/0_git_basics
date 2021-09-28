@@ -1,3 +1,3 @@
 #/bin/bash
-echoe "Hello, world!"
+echo "Hello, world!"
 # comment added
