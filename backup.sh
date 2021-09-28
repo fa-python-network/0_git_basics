@@ -1,3 +1,4 @@
 #/bin/bash
-echoe "Hello, world!"
+echo "Hello, world!"
 # comment added
+echo "random text"
