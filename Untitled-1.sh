@@ -1,5 +1,5 @@
 #!/bin/bash
-string1="hello "
+string1="Repeat "
 string2=world
 string=$string1$string2
 echo $string
