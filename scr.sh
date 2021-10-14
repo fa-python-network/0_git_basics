@@ -1,5 +1,5 @@
 #!/usr/bin/bash
 
-echo "smth script"
+ech "smth script"
 #commit
 
