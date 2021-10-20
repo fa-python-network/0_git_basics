@@ -1,1 +1,2 @@
-cat 123
+#!/bin/bash
+echo 123 #printing 123
