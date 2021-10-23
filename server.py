@@ -2,3 +2,5 @@
 def main():
     # first def
 
+def help():
+    # second def
