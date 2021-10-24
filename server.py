@@ -4,3 +4,6 @@ def main():
 
 def help():
     # second def CORRECTED
+
+def connect():
+    # to front
