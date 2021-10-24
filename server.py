@@ -3,4 +3,4 @@ def main():
     # first def
 
 def help():
-    # second def
+    # second def CORRECTED
