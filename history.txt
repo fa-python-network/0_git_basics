@@ -1,1 +1,256 @@
-history
+    1  shutdown now
+    2  ip addr show
+    3  sudo apt update
+    4  sudo apt upgrade
+    5  cd
+    6  sudo rm /etc/apt/preferences.d/nosnap.pref
+    7  sudo apt update
+    8  sudo apt install snapd snapd-xdg-open
+    9  sudo snap install pycharm-community --classic
+   10  restart now
+   11  sudo apt-get install python3-setuptools
+   12  sudo apt-get install python3-pip
+   13  sudo apt-get install python3-distutils
+   14  sudo apt-get install python3-tk
+   15  pycharm-community
+   16  sudo apt-get install python3-venv
+   17  pip install ipyhton
+   18  pip install ipython
+   19  pip install jupyter notebook
+   20  git --version
+   21  sudo apt-get install git
+   22  git config
+   23  git config --list
+   24  git config --list --show origin
+   25  git config --list --show-origin
+   26  git config --global.username "EE"
+   27  git config --global user.name "EE"
+   28  git config --global user.email "ee.lazko@ya.ru"
+   29  git config --list --show-origin
+   30  shutdown now
+   31  ipconfig
+   32  ifconfig
+   33  ifconfig -a
+   34  ping 172.20.10.12
+   35  shutdown now
+   36  jupyter-notebook
+   37  ipconf
+   38  ip addr show
+   39  sudo apt-get install nmap
+   40  nmap -sP 192.168.1.*
+   41  nmap -sP 127.0.0.*
+   42  shutdown now
+   43  jupyter notebook
+   44  shutdown now
+   45  jupyter notebokk
+   46  jupyter notebook
+   47  shutdown now
+   48  apt-get install git-cola
+   49  sudo apt-get install git-cola
+   50  cola
+   51  ls
+   52  cd FM
+   53  mkdir FM
+   54  cd FM
+   55  git init
+   56  python venv env
+   57  python3 venv env
+   58  python3 env venv
+   59  jupyter notebook
+   60  cd Lab Unix
+   61  cd 'Lab Unix'
+   62  ls
+   63  touch q.py
+   64  'print('hello world')' > q.py
+   65  "print('hello world')" > q.py
+   66  "print('hello world')" >> q.py
+   67  echo "print('hello world')" >> q.py
+   68  cat q.py
+   69  pip install virtualenv
+   70  ls
+   71  pyhton3 -m serv_env env
+   72  python3 -m serv_env env
+   73  python3 -m venv serv_env
+   74  ls
+   75  cd serv_env/bin
+   76  activate
+   77  ls
+   78  activate
+   79  source activate
+   80  deactivate
+   81  cd ..
+   82  rm serv_env
+   83  rm -a serv_env
+   84  re --help
+   85  rm --help
+   86  rm -r serv_env
+   87  ls
+   88  git status
+   89  ls
+   90  rm q.py
+   91  touch FM.py
+   92  ls
+   93  git status
+   94  git add FM.py
+   95  git status
+   96  git commit -m first_commit
+   97  git status
+   98  git history
+   99  shutdown now
+  100  mkdir r
+  101  history
+  102  cd Lab Unix
+  103  cd "Lab Unix"
+  104  git status
+  105  git histiry
+  106  git history
+  107  git log
+  108  touch .gitignore
+  109  ls
+  110  touch .gitignore
+  111  python3 -m venv test_env
+  112  ls
+  113  echo /test_env/* > .gitignore
+  114  ls
+  115  touch .112
+  116  ls
+  117  touch wd
+  118  ls
+  119  rm wd
+  120  ls
+  121  lls
+  122  ls
+  123  rm .112
+  124  man ls
+  125  ls -a
+  126  cd .
+  127  rm .
+  128  cd .
+  129  cd ..
+  130  cd 'Lab Unix'
+  131  ls -a
+  132  cat .gitignore
+  133  git add *
+  134  git status
+  135  git rm q.py
+  136  git status
+  137  git add .gitignore
+  138  git status
+  139  git commit -m 'sec_com'
+  140  git status
+  141  git branch
+  142  git branch thematical
+  143  git branch
+  144  git checkout thematical
+  145  git branch
+  146  git status
+  147  touch rrr
+  148  adasd>rrr
+  149  echo adasd>rrr
+  150  git add *
+  151  git status
+  152  git commit -m 'to temathical'
+  153  git status
+  154  git branch
+  155  git brach master
+  156  git branch master
+  157  git checkout  master
+  158  touch yyy
+  159  echo adwda > yyy
+  160  git add yyy 
+  161  git status
+  162  touch sedea
+  163  git status
+  164  gid add * adaw
+  165  git add * adaw
+  166  git add * yyy
+  167  git commit -m 'mas comm 2'
+  168  touch aedaed.py
+  169  git add *
+  170  git commit -m '3 com'
+  171  git log
+  172  git show sec_com
+  173  got log
+  174  git log
+  175  git show first_commit
+  176  git show a4496045786a608d7d1ea9f5a6e4ab82de7526cd
+  177  git log -p -2
+  178  git reset HEAD~
+  179  git status
+  180  cat yyy
+  181  git checkout thematical
+  182  echo eada > edeadae
+  183  echo aejdejdae > yyy
+  184  cat yyy
+  185  git ad  *
+  186  git add  *
+  187  git commit -m 'with conf'
+  188  git checkout master
+  189  git merge thematical
+  190  rm yyy
+  191  git merge thematical
+  192  git add * 
+  193  git status
+  194  git commit -m 'new'
+  195  ls
+  196  git rm yyy
+  197  git status
+  198  git commit -m 'asd'
+  199  git merge thematical
+  200  cd git/test
+  201  mkdir git/test
+  202  cd ..
+  203  ls
+  204  mkdir git
+  205  cd git
+  206  mkdir test
+  207  cd test
+  208  git clone https://github.com/z111111111/0_git_basics.git
+  209  ls
+  210  touch backup.sh
+  211  echo echo /dwldjqwde/din
+  212  echo echo /dwldjqwde/din > backup.sh
+  213  cat backup.sh
+  214  nano backup.sh
+  215  git commit -m 'saxsax'
+  216  ls
+  217  ls -a
+  218  cd ..
+  219  ls
+  220  rm -a test
+  221  man rm
+  222  rm -r test
+  223  rm -rf test
+  224  ls
+  225  mkdir test
+  226  cd test
+  227  git init
+  228  git clone https://github.com/z111111111/0_git_basics.git
+  229  git status
+  230  cd ..
+  231  mkdir t
+  232  cd t
+  233  git status
+  234  git clone https://github.com/z111111111/0_git_basics.git
+  235  git status
+  236  cd ..
+  237  rm -rf t
+  238  cd test
+  239  git status
+  240  cd 0_git_basics
+  241  git status
+  242  ls
+  243  echo history > history.txt
+  244  git add * 
+  245  git status
+  246  git commit -m 'commands of first and second lab'
+  247  git status
+  248  echo echo /etc/bin/sedesdsd > backup.sh
+  249  git commit -m add_comm
+  250  git add * 
+  251  git commit -m add_comm
+  252  git push -all https://github.com/z111111111/0_git_basics.git
+  253  git push --all https://github.com/z111111111/0_git_basics.git
+  254  ls
+  255  cat history.txt
+  256  history > history.txt
