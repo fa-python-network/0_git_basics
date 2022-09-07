@@ -2,3 +2,4 @@
 
 echo HELLO
 
+echo LOL
