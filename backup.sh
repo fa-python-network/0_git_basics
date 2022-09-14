@@ -4,3 +4,5 @@ a = 1
 echo $a
 
 echo "Hello world!"
+
+echo "Практикум по программированию"
