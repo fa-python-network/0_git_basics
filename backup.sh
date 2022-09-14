@@ -6,3 +6,5 @@ echo $a
 echo "Hello world!"
 
 echo "Практикум по программированию"
+
+echo "Комментарий 1"
