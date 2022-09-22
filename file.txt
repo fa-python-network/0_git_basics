@@ -1,2 +1,4 @@
 print('hello world')
 print('dsfdfdsgs')
+def func(x):
+	return x 
