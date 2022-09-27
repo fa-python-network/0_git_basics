@@ -1,6 +1,5 @@
 echo "Enter name"
 read name
-#we are reading a user's name
 #!/bin/bash  
   
 <<COMMENTS  
@@ -8,3 +7,4 @@ read name
     This is the second comment  
     This is the third comment  
 COMMENTS  
+echo "hello world"
