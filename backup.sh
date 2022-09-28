@@ -2,4 +2,4 @@
 
 echo "Hello world"
 
-ls --colo 
+ls --color
