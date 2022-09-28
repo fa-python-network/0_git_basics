@@ -1,1 +1,1 @@
-ekho "Hello world!"
+echo "Hello world!"
