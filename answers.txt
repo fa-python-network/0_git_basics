@@ -1,0 +1,5 @@
+1) Облачный хостинг репозиториев нужен для того, чтобы можно было редактировать репозиторий без разворачивания проекта локально.
+
+2)collaborative coding, Automation & CI/CD, Secutiry, Client Apps, Project Management, Team Administration, Community
+
+3)с помощью git
