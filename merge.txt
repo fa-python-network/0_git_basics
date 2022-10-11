@@ -1,1 +1,1 @@
-conflict1
+new text and condlictgit checkout -b branch!
