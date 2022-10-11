@@ -1,2 +1,5 @@
 conflict1
 new text and newsdfgsdfg conflict????
+new text and condlictgit checkout -b branch!
+new text and new conflict????
+
