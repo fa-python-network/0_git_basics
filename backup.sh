@@ -1,1 +1,1 @@
-echo Hello world. #вывод
+eco Hello world. #вывод
