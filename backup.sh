@@ -1,2 +1,2 @@
-echo Hello world!
+echo Helo world!
 #comment
