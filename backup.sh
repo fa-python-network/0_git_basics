@@ -1,2 +1,2 @@
-echo Helo world!
+ech Heloo world!
 #comment
