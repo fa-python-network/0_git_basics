@@ -1,1 +1,1 @@
-echo Hellooooo #vivod
+eco Hellooooo #vivod
