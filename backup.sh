@@ -1,2 +1,2 @@
-echo "Hello, $(whoami)"
+eho "Hello, $(whoami)"
 # comment
