@@ -1,1 +1,2 @@
-cho "Hello, $(whoami)"
+echo "Hello, $(whoami)"
+# test
