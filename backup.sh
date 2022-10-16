@@ -3,3 +3,4 @@ a=50
 b=100
 echo "${a}"
 echo "${b}"
+echo $((a+b)) #sum
