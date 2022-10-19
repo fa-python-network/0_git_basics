@@ -1,2 +1,2 @@
-echo "privet"
+eho "privet"
 #vsem privet
