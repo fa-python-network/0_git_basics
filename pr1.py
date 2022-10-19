@@ -1,4 +1,5 @@
 def sum(a,b):
   return a + b
-
-print(1,1)
+a = 1
+b = 1
+print(a,b)
