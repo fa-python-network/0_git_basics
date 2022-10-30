@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-echo Hello world
+eco Hello world
 # это какой то скрипт
