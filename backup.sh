@@ -1,2 +1,2 @@
 echo hello word
-echo hi
+eco hi
