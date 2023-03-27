@@ -1,2 +1,2 @@
 : TODO world and auth backup
-mysqldump -uroot -p characters > dump.sql
+mysldump -uroot -p characters > dump.sql
