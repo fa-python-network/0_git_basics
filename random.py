@@ -4,3 +4,5 @@ def sum(a,b):
     return a + b
 
 print(sum(12, 5))
+
+# Конец программы
