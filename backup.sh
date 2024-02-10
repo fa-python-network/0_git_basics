@@ -1,1 +1,2 @@
-echo 1ss
+echo 1
+echo 2
