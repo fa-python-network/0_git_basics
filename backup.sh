@@ -1,2 +1,2 @@
 echo 1
-echo 2ss
+echo 2
