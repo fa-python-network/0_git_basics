@@ -4,3 +4,4 @@
 cp /path/to/important/file /path/to/backup/location
 echo "Резервная копия создана!"
 # Всем привет всем, ребята!
+# Итоговая версия
