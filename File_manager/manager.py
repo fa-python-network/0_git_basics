@@ -4,17 +4,17 @@ import os
 import shutil
 import sys
 
-def set_working_directory():
-    with open("config.txt", "r", encoding='utf-8') as config_file:  # Открываем файл конфигурации для чтения
-        script_directory = config_file.read().strip()  # Читаем рабочую директорию и удаляем пробелы
-    working_directory = os.path.abspath(script_directory)
-    os.chdir(working_directory)  # Смена рабочей директории на указанную в конфигурации
-    return working_directory  # Возвращаем рабочую директорию
-
 # def set_working_directory():
-#     script_directory = os.path.dirname(os.path.realpath(__file__))
-#     os.chdir(script_directory)
-#     return script_directory
+#     with open("config.txt", "r", encoding='utf-8') as config_file:  # Открываем файл конфигурации для чтения
+#         script_directory = config_file.read().strip()  # Читаем рабочую директорию и удаляем пробелы
+#     working_directory = os.path.abspath(script_directory)
+#     os.chdir(working_directory)  # Смена рабочей директории на указанную в конфигурации
+#     return working_directory  # Возвращаем рабочую директорию
+
+def set_working_directory():
+    script_directory = os.path.dirname(os.path.realpath(__file__))
+    os.chdir(script_directory)
+    return script_directory
 
 
 def create_folder(name):
@@ -27,13 +27,14 @@ def move_into_folder(name):
     os.chdir(name)  # Переход в папку с указанным именем
 
 def move_out_of_folder():
+    global initial_directory
     current_directory = os.getcwd()  # Получаем текущую рабочую директорию
     parent_directory = os.path.abspath(os.path.join(current_directory, os.pardir))  # Получаем абсолютный путь родительской директории
 
-    if parent_directory != initial_directory:  # Сравниваем родительскую директорию с рабочей директорией
-        os.chdir(parent_directory)  # Если они не равны, переходим в родительскую директорию
+    if current_directory == initial_directory:  # Сравниваем родительскую директорию с рабочей директорией
+        print("\nОшибка: Вы находитесь в корневой рабочей папке, выход за ее пределы запрещен.")  # Если они равны, выводим сообщение об ошибке
     else:
-        print("Ошибка: Вы находитесь в корневой рабочей папке, выход за ее пределы запрещен.")  # Если они равны, выводим сообщение об ошибке
+        os.chdir(parent_directory)  # Если они не равны, переходим в родительскую директорию
 
 def create_file(name):
     open(name, 'a').close()  # Создание пустого файла с указанным именем
@@ -148,8 +149,8 @@ def main():
     global initial_directory  # Объявляем глобальную переменную initial_directory
     initial_directory = set_working_directory()  # Сохраняем первоначальную директорию
     print_help()
-
     while True:
+        print(os.getcwd())
         user_input = input("\nВведите команду: ")
         process_input(user_input)
 
