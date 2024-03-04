@@ -6,7 +6,8 @@ import sys
 
 def set_working_directory():
     with open("config.txt", "r", encoding='utf-8') as config_file:  # Открываем файл конфигурации для чтения
-        working_directory = config_file.read().strip()  # Читаем рабочую директорию и удаляем пробелы
+        script_directory = config_file.read().strip()  # Читаем рабочую директорию и удаляем пробелы
+    working_directory = os.path.abspath(script_directory)
     os.chdir(working_directory)  # Смена рабочей директории на указанную в конфигурации
     return working_directory  # Возвращаем рабочую директорию
 
@@ -26,7 +27,13 @@ def move_into_folder(name):
     os.chdir(name)  # Переход в папку с указанным именем
 
 def move_out_of_folder():
-    os.chdir("..")  # Переход на уровень выше
+    current_directory = os.getcwd()  # Получаем текущую рабочую директорию
+    parent_directory = os.path.abspath(os.path.join(current_directory, os.pardir))  # Получаем абсолютный путь родительской директории
+
+    if parent_directory != initial_directory:  # Сравниваем родительскую директорию с рабочей директорией
+        os.chdir(parent_directory)  # Если они не равны, переходим в родительскую директорию
+    else:
+        print("Ошибка: Вы находитесь в корневой рабочей папке, выход за ее пределы запрещен.")  # Если они равны, выводим сообщение об ошибке
 
 def create_file(name):
     open(name, 'a').close()  # Создание пустого файла с указанным именем
@@ -138,7 +145,8 @@ def print_help():
         print(f"{command}: {description}")
 
 def main():
-    set_working_directory()
+    global initial_directory  # Объявляем глобальную переменную initial_directory
+    initial_directory = set_working_directory()  # Сохраняем первоначальную директорию
     print_help()
 
     while True:
