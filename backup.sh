@@ -1,4 +1,4 @@
 #!/bin/bash
 
-echo '123'
+echo '1'23'
 echo '112233' # comment
