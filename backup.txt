@@ -1,0 +1,6 @@
+print("Hello world")
+print("New string")
+print(99)
+a = 1
+b = 2
+c = a + b
