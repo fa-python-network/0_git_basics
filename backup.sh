@@ -1,1 +1,2 @@
 echo somescript
+echo newscript
