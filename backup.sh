@@ -1,3 +1,3 @@
-c git
+cd git
 # cd test
 
